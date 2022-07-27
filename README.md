@@ -20,7 +20,7 @@ Softwares: RStudio v.1.4.1103, dplyr library v.1.0.3
 
 Data sources : MechaCar_mpg.csv, Suspension_Coil.csv
 
-### Linear Regression to Predict MPG
+# Linear Regression to Predict MPG
 
 The MechaCar dataset contains a sample size of 50 prototypes measuring the miles per gallon across multiple variables. The linear regression was calculated using R in RStudio.
 
@@ -30,7 +30,7 @@ R script was applied to the dataset on several variables to get the following co
 
 ![CALL and Coefficients](https://user-images.githubusercontent.com/96400887/181066993-ec2dfd1e-2cb1-43c4-9765-95df0b1a1ee8.png)
 
-### Summary of Linear Regression model
+# Summary of Linear Regression model
 
 A summary of the linear regression can be displayed to determine the quality of the dataset. In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -.07 is close to zero.
 
@@ -46,7 +46,7 @@ The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length)+.0
 
 R-squared is .7149, which is a strong correlation for the dataset and shows the dataset is an effective dataset. However, r-squared is not the only consideration for effectiveness. There may be other variables not included in the dataset contributing to the variation in the mpg.
 
-### Summary Statistics on Suspension Coils
+# Summary Statistics on Suspension Coils
 
 - Manufacturing Lot Summary
 
@@ -66,7 +66,7 @@ In the lot summary, we see that the major contributor to the variance is lot 3 w
 
 In total, the manufacturing data meets the maximum variance in PSI requirement, but we can see that there are clearly big problems in lot 3 with a variance of 170 PSI. Lot 3 does not meet the maximum variance requirement.
 
-### T-Tests on Suspension Coils
+# T-Tests on Suspension Coils
 
 - T-test for all Lots
 
@@ -105,20 +105,20 @@ In order to compare the performance of the MechaCar against the competition, we 
 
 1. What metric or metrics are you going to test?
 
-The next metrics to test should be the safety rating, horsepower, and highway fuel efficiency, which address some safety concerns of consumers.
+  The next metrics to test should be the safety rating, horsepower, and highway fuel efficiency, which address some safety concerns of consumers.
 
 2. What is the null hypothesis or alternative hypothesis?
-3. 
- We can make a null hypothesis stating that it is not different from the competition and our Alternative would be the opposite
-The alternative hypothesis is that the mean of the safety rating is not zero.
+
+  We can make a null hypothesis stating that it is not different from the competition and our Alternative would be the opposite
+  The alternative hypothesis is that the mean of the safety rating is not zero.
 
 3. What statistical test would you use to test the hypothesis? And why?
 
-We will perform one-tailed t-tests in order to determine if the MechaCar has higher or lower observed values in these variables than the competition according to which direction the consumer would prefer. 
+  We will perform one-tailed t-tests in order to determine if the MechaCar has higher or lower observed values in these variables than the competition according to      which direction the consumer would prefer. 
 
 4. What data is needed to run the statistical test?
 
-We need these statistical tests, including the cost, fuel efficiency, horsepower, safety rating, and carbon waste output data from the MechaCar as well as the MechaCar's competitors.
+ We need these statistical tests, including the cost, fuel efficiency, horsepower, safety rating, and carbon waste output data from the MechaCar as well as the MechaCar's competitors.
 
 
 
