@@ -4,7 +4,7 @@ R Studio
 
 Statistics and R
 
-# Overview of the Projct
+# Overview of the Project
 
 In this project, We’ll help Jeremy and the data analytics team do the following:
 
